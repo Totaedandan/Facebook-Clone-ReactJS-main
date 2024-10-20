@@ -1,0 +1,155 @@
+.Header{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    position: sticky;
+    justify-content: space-around;
+    padding: 5px 0px 0px 0px;
+    color: #b3b9c5;
+    border-bottom: 1.5px solid #5d5e62;
+}
+
+.Header .logo{
+
+    position: relative;
+    color: rgb(236, 236, 233);
+    font-size: 35px;
+    font-weight: 700;
+    padding: 2px 17px 0px 17px;
+    border-radius: 50%;
+    background: rgb(16, 97, 202);
+    margin-right: 150px;
+}
+
+.Header .header-mid{
+    width: 29%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+
+}
+
+.Header .header-nav-item {
+    z-index: 5;
+    font-size: 30px;
+    width: 85px;
+    padding: 20px 0px;
+    transition: all 300ms;
+    margin: none;
+    margin-bottom: -2px;
+
+}
+
+
+.Header .header-nav-item-main{
+    color: rgb(16, 108, 228) !important;
+    font-size: 30px;
+    border-bottom: solid 3px rgb(16, 97, 202);
+    padding: 20px 0px;
+    width: 85px;
+    margin: none;
+    margin-bottom: -1.7px;
+}
+
+.Header .header-nav-item:hover {
+    color: rgb(16, 108, 228);
+    cursor: pointer;
+    border-bottom: solid 3px rgb(16, 97, 202);
+    transform: linear;
+}
+
+
+.active{
+    color: rgb(16, 108, 228) !important;
+}
+
+.header-search {
+    display: flex;
+}
+
+
+.searchForm{
+    position: relative;
+    /* margin: auto; */
+    /* width: 30%; */
+    margin-left: -50px;
+}
+  
+input{
+    width: 230px;
+    padding: 10px 20px;
+    background: #5d5e62;
+    border-radius: 20px;
+    border: none;
+    color: #b3b9c5;
+
+}
+
+input:focus{
+    outline: none;
+    border: none;
+}
+  
+  .searchBarInput::placeholder{
+    padding-left: 15px;
+    letter-spacing: 0.1rem;
+    font-size: 13px;
+    color: #b3b9c5;
+    font-weight: 500;
+
+  }
+  
+  .searchIcon{
+    position: absolute;
+    padding: 2px;
+    color: #b3b9c5;
+    display: flex;
+    background: none;
+    left: 10px;
+    top: 5px;
+    font-weight: 700;
+  }
+
+.Header button {
+    margin-left: 10px;
+    color: rgb(236, 236, 233);
+    background: rgb(16, 97, 202);
+    border: none;
+    padding: 0px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    letter-spacing: 0.07rem;
+    transition: 0.5s all;
+}
+
+.Header button:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Header button:focus{
+    outline: none;
+    border: none;
+}
+
+.Header .header-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 180px;
+}
+
+.Header .header-end .header-end-icon{
+    transition: all 0.3s;
+}
+
+.Header .header-end .header-end-icon:hover {
+    color: rgb(236, 236, 233);
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.primary{
+    color: rgb(236, 236, 233);
+}

@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    background: #09090a;
+}
+
+
+.color-primary {
+    color: #b3b9c5;
+}
+
+.color-div {
+    color: #3c3741;
+}
+
+.color-div-sec {
+    color: #5d5e62;
+}
+
+.active{
+    color: rgb(16, 108, 228);
+}
+

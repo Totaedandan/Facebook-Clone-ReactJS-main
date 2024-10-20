@@ -1,0 +1,74 @@
+.Messenger {
+    width: 270px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    padding: 0px 25px 12px;
+    background: #272729;
+    border-radius: 8px;
+}
+
+.Messenger .mes-head{
+    background: none;
+    display: flex;
+}
+
+.Messenger .mes-head p{
+    background: none;
+    color: rgb(13, 121, 245);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    margin-top: 10px;
+    position: absolute;
+    right: 30px;
+}
+
+.Messenger h4{
+    background: none;
+    color: rgb(236, 236, 233);
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    margin-bottom: 5px;
+}
+
+.Messenger .mes-profile{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background: none;
+    margin-top: 12px;
+}
+
+.Messenger .mes-profile img{
+    width: 55px;
+    border-radius: 50%;
+    border: 3px solid rgb(13, 121, 245);
+}
+
+.Messenger .mes-profile h5{
+    background: none;
+    color: rgb(236, 236, 233);
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.Messenger .mes-profile .mes-active{
+    background: none;
+    font-size: 12px;
+    color: rgb(3, 216, 152);
+    position: absolute;
+    right: 30px;
+}
+
+.Messenger .mes-profile .mes-inactive{
+    background: none;
+    font-size: 12px;
+    color: rgb(83, 85, 84);
+    position: absolute;
+    right: 30px;
+}

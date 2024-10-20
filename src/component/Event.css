@@ -1,0 +1,91 @@
+.Event {
+    width: 300px;
+    position: absolute;
+    right: 40px;
+    background: #272729;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 20px 0px;
+    color: rgb(236, 236, 233);
+}
+
+
+.Event .event-head{
+    background: none;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Event .event-head h4{
+    color: rgb(236, 236, 233);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+}
+
+.Event .event-head .event-icon{
+    color: #5d5e62;
+    font-size: 33px;
+}
+
+.Event img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.Event .event-mid{
+    background: none;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.Event .event-mid h4{
+    color: rgb(236, 236, 233);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    font-size: 17px;
+}
+
+.Event .event-mid p{
+    color: rgb(13, 121, 245);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+.Event .event-item{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Event .event-item img{
+    width: 75px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.Event .event-item .event-item-detail h4{
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+    font-size: 16px;
+}
+
+.Event .event-item .event-item-detail h5{
+    color: rgb(141, 142, 143);
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    margin-top: 2px;
+}
